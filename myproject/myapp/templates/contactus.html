@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+<!-- contact -->
+{% block content %}
+
+
+<div class="contact">
+    <div class="container">
+       <div class="row ">
+          <div class="col-md-8 offset-md-2">
+             <div class="titlepage text_align_left">
+                <h1><b>Get In Touch</b></h1>
+             </div>
+             <form id="request" class="main_form">
+                <div class="row">
+                   <div class="col-md-12">
+                      <input class="contactus" placeholder="Name" type="type" name=" Name" id = "1"> 
+                   </div>
+                   <div class="col-md-12">
+                      <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number" id = "2">                          
+                   </div>
+                   <div class="col-md-12">
+                      <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                   </div>
+                   <div class="col-md-12">
+                      <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                   </div>
+                   <div class="col-md-12">
+                      <button class="btn btn-primary " type="submit" >Send Now</button>
+                   </div>
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+ </div>
+ {% endblock content %}
